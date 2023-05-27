@@ -120,7 +120,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: quake-lb
-  namespace: quake
 spec:
   ports:
     - name: client
